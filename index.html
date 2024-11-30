@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="head.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chivo:wght@200&family=Kalnia:wght@100&family=Kaushan+Script&family=Neuton:wght@300&family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    />
+    <title>myPortfolio</title>
+  </head>
+
+  <body>
+    <header id="head">
+      <div id="page_header">
+        <div class="logo">
+          <img class="logo-img" src="logo.png" alt="" />
+        </div>
+        <ul class="nav-ul">
+          <li class="li-list">
+            <a href="#home-section" class=" " onclick="markMenuItem(this)"
+              >Home</a
+            >
+          </li>
+          <li class="li-list">
+            <a href="#about-section" onclick="markMenuItem(this)">About</a>
+          </li>
+          <li class="li-list">
+            <a href="#p-s" onclick="markMenuItem(this)">Skills</a>
+          </li>
+          <li class="li-list">
+            <a href="#project" onclick="markMenuItem(this)">Project</a>
+          </li>
+          <li class="li-list">
+            <a href="#contect-us" onclick="markMenuItem(this)">contect</a>
+          </li>
+        </ul>
+        <div id="menuBtn">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+      </div>
+    </header>
+    <script src="portfolio.js"></script>
+    <section id="home-section">
+      <div id="content-section">
+        <div id="content-section-in">
+          <h3>Hi, It's Me</h3>
+          <h1>I'm Dev</h1>
+          <p>I'm Fronted Web Devloper</p>
+          <button id="Dcv">Download CV</button>
+          <div class="social">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/Devsharma250"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/dev-sharma-25144b229/"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div id="img-div">
+        <div class="img-shado">
+          <img id="profile" src="d-r.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <section id="about-section">
+      <div class="about-me">
+        <h2>A LITTLE <span>ABOUT ME</span></h2>
+        <p>
+          Hello! I'm Dev Sharma. I am Computer Scienece Student. Currently i am
+          in Final year Student of BCA. I hope upgrade my codding skill through
+          various courses, project and compition. I have also enrned
+          certificates of coding fram HackRank. I also get some internships
+          certificates. I am possionate about coding and always eager to learn
+          somthing new and trying to solved reak-world chaillenges.
+        </p>
+      </div>
+    </section>
+    <section id="p-s">
+      <div id="progress">
+        <div class="main-tital">
+          <h2>My Skills</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde rem
+            ipsa fugit, iure sed sint tenetur obcaecati illum necessitatibus ut?
+          </p>
+        </div>
+        <div class="skill-container">
+          <div class="subject">
+            HTML
+            <div class="progress-bar" value="94%"></div>
+            <div class="progress-line" style="max-width: 94%"></div>
+          </div>
+          <div class="subject">
+            CSS
+            <div class="progress-bar" value="80%"></div>
+            <div class="progress-line" style="max-width: 80%"></div>
+          </div>
+          <div class="subject">
+            JavaScript
+            <div class="progress-bar" value="50%"></div>
+            <div class="progress-line" style="max-width: 50%"></div>
+          </div>
+          <div class="subject">
+            PHP
+            <div class="progress-bar" value="70%"></div>
+            <div class="progress-line" style="max-width: 70%"></div>
+          </div>
+          <div class="subject">
+            C
+            <div class="progress-bar" value="85%"></div>
+            <div class="progress-line" style="max-width: 85%"></div>
+          </div>
+          <div class="subject">
+            DSA
+            <div class="progress-bar" value="70%"></div>
+            <div class="progress-line" style="max-width: 70%"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="project">
+      <div id="project-in">
+        <h2>Letest <span>Project</span></h2>
+        <div class="project-boxs">
+          <div class="project-items">
+            <img class="project-img"  src="img-1.jpg" alt="" srcset="" />
+            <div class="project-content">
+              <h3>EMAIL VALIDATOR</h3>
+              <p>
+                An email validator website made with the help of HTML, CSS,
+                Javascript, and an online email validation API.
+              </p>
+              <a href=""
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="project-items">
+            <img class="project-img" src="img-2.jpg" alt="" />
+            <div class="project-content">
+              <h3>iSam</h3>
+              <p>
+                A real-time multi-user chat application made with the use of Socket I/O Programming, Javascript, HTML, and CSS.
+              </p>
+              <a href=""
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="project-items">
+            <img class="project-img" src="img-3.jpg" alt="" srcset="" />
+            <div class="project-content">
+              <h3>ANALOG CLOCK</h3>
+              <p>
+                A simple analog clock using Web Development (HTML, CSS, and Javascript).
+              </p>
+              <a href=""
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a> 
+            </div> 
+          </div>
+          <div class="project-items">
+            <img class="project-img" src="img-4.jpg" alt="" />
+            <div class="project-content">
+              <h3>KNOW-LEDGER</h3>
+              <p>
+                A responsive website made with the help of HTML, CSS, and Javascript.
+              </p>
+              <a href=""
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="project-items">
+            <img class="project-img" src="img-5.jpg" alt="" />
+            <div class="project-content">
+              <h3>Dance Academy</h3>
+              <p>
+                Dance Academy Website using HTML, CSS, JAVASCRIPT, PUG, and NODEJS using BACKEND where input credentials are saved using MongoDB
+              </p>
+              <a href=""
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="project-items">
+            <img class="project-img" src="img-6.jpg" alt="" />
+            <div class="project-content">
+              <h3>BASIC CALCULATOR</h3>
+              <p>
+                Calculator made using Web Development (HTML, CSS, and Javascript)
+              </p>
+              <a href=""
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+        </div>
+      </div>
+    </section>
+    <section id="contect-us">
+      <h2 class="contect-title">Contect Us</h2>
+      <div class="contect-way">
+        <div class="icon">
+          <i class="fa-solid fa-location-dot"></i>
+          <h2>Address</h2>
+          <p>Deo</p>
+        </div>
+        <div class="icon">
+          <i class="fa-solid fa-mobile-screen-button"></i>
+          <h2>Phone</h2>
+          <p>7368833141</p>
+        </div>
+        <div class="icon">
+          <i class="fa-regular fa-envelope"></i>
+          <h2>Email</h2>
+          <p>devsharmakumar74@gmail.com</p>
+        </div>
+      </div>
+      <div class="contect-form">
+        <div>
+          <input type="text" placeholder="Your name" />
+          <input
+            type="email"
+            name="email"
+            id=""
+            placeholder="Email Address"
+            pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
+          />
+          <button>Send message</button>
+        </div>
+      </div>
+      <div class="socia">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://twitter.com/Devsharma250"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/dev-sharma-25144b229/"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+      </div>
+    </section>
+  </body>
+</html>
